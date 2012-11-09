@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		718F9170164CFAD0003EE43B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718F916F164CFAD0003EE43B /* UIKit.framework */; };
+		718F9172164CFAD0003EE43B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718F9171164CFAD0003EE43B /* Foundation.framework */; };
+		718F9174164CFAD0003EE43B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718F9173164CFAD0003EE43B /* CoreGraphics.framework */; };
+		718F917A164CFAD1003EE43B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 718F9178164CFAD1003EE43B /* InfoPlist.strings */; };
+		718F917C164CFAD1003EE43B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 718F917B164CFAD1003EE43B /* main.m */; };
+		718F9180164CFAD1003EE43B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 718F917F164CFAD1003EE43B /* AppDelegate.m */; };
+		718F9182164CFAD1003EE43B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 718F9181164CFAD1003EE43B /* Default.png */; };
+		718F9184164CFAD1003EE43B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 718F9183164CFAD1003EE43B /* Default@2x.png */; };
+		718F9186164CFAD1003EE43B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 718F9185164CFAD1003EE43B /* Default-568h@2x.png */; };
+		718F9189164CFAD1003EE43B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 718F9188164CFAD1003EE43B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		718F916B164CFAD0003EE43B /* DatePickerShowAnimatedSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickerShowAnimatedSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		718F916F164CFAD0003EE43B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		718F9171164CFAD0003EE43B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		718F9173164CFAD0003EE43B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		718F9177164CFAD1003EE43B /* DatePickerShowAnimatedSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DatePickerShowAnimatedSample-Info.plist"; sourceTree = "<group>"; };
+		718F9179164CFAD1003EE43B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		718F917B164CFAD1003EE43B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		718F917D164CFAD1003EE43B /* DatePickerShowAnimatedSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DatePickerShowAnimatedSample-Prefix.pch"; sourceTree = "<group>"; };
+		718F917E164CFAD1003EE43B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		718F917F164CFAD1003EE43B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		718F9181164CFAD1003EE43B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		718F9183164CFAD1003EE43B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		718F9185164CFAD1003EE43B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		718F9187164CFAD1003EE43B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		718F9188164CFAD1003EE43B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		718F9168164CFAD0003EE43B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718F9170164CFAD0003EE43B /* UIKit.framework in Frameworks */,
+				718F9172164CFAD0003EE43B /* Foundation.framework in Frameworks */,
+				718F9174164CFAD0003EE43B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		718F9160164CFAD0003EE43B = {
+			isa = PBXGroup;
+			children = (
+				718F9175164CFAD1003EE43B /* DatePickerShowAnimatedSample */,
+				718F916E164CFAD0003EE43B /* Frameworks */,
+				718F916C164CFAD0003EE43B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		718F916C164CFAD0003EE43B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				718F916B164CFAD0003EE43B /* DatePickerShowAnimatedSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		718F916E164CFAD0003EE43B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				718F916F164CFAD0003EE43B /* UIKit.framework */,
+				718F9171164CFAD0003EE43B /* Foundation.framework */,
+				718F9173164CFAD0003EE43B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		718F9175164CFAD1003EE43B /* DatePickerShowAnimatedSample */ = {
+			isa = PBXGroup;
+			children = (
+				718F917E164CFAD1003EE43B /* AppDelegate.h */,
+				718F917F164CFAD1003EE43B /* AppDelegate.m */,
+				718F9187164CFAD1003EE43B /* ViewController.h */,
+				718F9188164CFAD1003EE43B /* ViewController.m */,
+				718F9176164CFAD1003EE43B /* Supporting Files */,
+			);
+			path = DatePickerShowAnimatedSample;
+			sourceTree = "<group>";
+		};
+		718F9176164CFAD1003EE43B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				718F9177164CFAD1003EE43B /* DatePickerShowAnimatedSample-Info.plist */,
+				718F9178164CFAD1003EE43B /* InfoPlist.strings */,
+				718F917B164CFAD1003EE43B /* main.m */,
+				718F917D164CFAD1003EE43B /* DatePickerShowAnimatedSample-Prefix.pch */,
+				718F9181164CFAD1003EE43B /* Default.png */,
+				718F9183164CFAD1003EE43B /* Default@2x.png */,
+				718F9185164CFAD1003EE43B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		718F916A164CFAD0003EE43B /* DatePickerShowAnimatedSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718F918F164CFAD1003EE43B /* Build configuration list for PBXNativeTarget "DatePickerShowAnimatedSample" */;
+			buildPhases = (
+				718F9167164CFAD0003EE43B /* Sources */,
+				718F9168164CFAD0003EE43B /* Frameworks */,
+				718F9169164CFAD0003EE43B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePickerShowAnimatedSample;
+			productName = DatePickerShowAnimatedSample;
+			productReference = 718F916B164CFAD0003EE43B /* DatePickerShowAnimatedSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		718F9162164CFAD0003EE43B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "harusou apps";
+			};
+			buildConfigurationList = 718F9165164CFAD0003EE43B /* Build configuration list for PBXProject "DatePickerShowAnimatedSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 718F9160164CFAD0003EE43B;
+			productRefGroup = 718F916C164CFAD0003EE43B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				718F916A164CFAD0003EE43B /* DatePickerShowAnimatedSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		718F9169164CFAD0003EE43B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718F917A164CFAD1003EE43B /* InfoPlist.strings in Resources */,
+				718F9182164CFAD1003EE43B /* Default.png in Resources */,
+				718F9184164CFAD1003EE43B /* Default@2x.png in Resources */,
+				718F9186164CFAD1003EE43B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		718F9167164CFAD0003EE43B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718F917C164CFAD1003EE43B /* main.m in Sources */,
+				718F9180164CFAD1003EE43B /* AppDelegate.m in Sources */,
+				718F9189164CFAD1003EE43B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		718F9178164CFAD1003EE43B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718F9179164CFAD1003EE43B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		718F918D164CFAD1003EE43B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		718F918E164CFAD1003EE43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		718F9190164CFAD1003EE43B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatePickerShowAnimatedSample/DatePickerShowAnimatedSample-Prefix.pch";
+				INFOPLIST_FILE = "DatePickerShowAnimatedSample/DatePickerShowAnimatedSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		718F9191164CFAD1003EE43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatePickerShowAnimatedSample/DatePickerShowAnimatedSample-Prefix.pch";
+				INFOPLIST_FILE = "DatePickerShowAnimatedSample/DatePickerShowAnimatedSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		718F9165164CFAD0003EE43B /* Build configuration list for PBXProject "DatePickerShowAnimatedSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718F918D164CFAD1003EE43B /* Debug */,
+				718F918E164CFAD1003EE43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718F918F164CFAD1003EE43B /* Build configuration list for PBXNativeTarget "DatePickerShowAnimatedSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718F9190164CFAD1003EE43B /* Debug */,
+				718F9191164CFAD1003EE43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 718F9162164CFAD0003EE43B /* Project object */;
+}
