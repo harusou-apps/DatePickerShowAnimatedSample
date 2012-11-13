@@ -15,10 +15,13 @@
     NSDateFormatter* dateFormatter;
     UILabel* labelDate;
     UIButton* buttonShow;
+    UIButton* buttonShowWithBlocks;
+    
 }
 @property(nonatomic,retain)UIDatePicker *pickerView;
 @property(nonatomic,retain)NSDateFormatter* dateFormatter;
 @property(nonatomic,retain)UILabel* labelDate;
 @property(nonatomic,retain)UIButton* buttonShow;
+@property(nonatomic,retain)UIButton* buttonShowWithBlocks;
 
 @end
